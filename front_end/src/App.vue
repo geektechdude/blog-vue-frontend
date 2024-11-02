@@ -5,14 +5,15 @@ import { RouterLink, RouterView } from "vue-router";
 <template>
   <header>
     <div class="wrapper">
-      <h1>My Blog 🐾</h1>
+      <h1>GeekTechStuff Blog </h1>
       <nav>
         <RouterLink to="/">Posts</RouterLink>
       </nav>
     </div>
   </header>
-
+<body>
   <RouterView />
+</body>
 </template>
 
 <style scoped>
