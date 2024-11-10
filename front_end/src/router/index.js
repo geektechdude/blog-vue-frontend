@@ -4,6 +4,7 @@ import AllPostsView from "../views/AllPostsView.vue";
 import PostView from "../views/PostView.vue";
 import PostsByTagView from "../views/PostsByTagView.vue";
 import AboutView from "../views/AboutView.vue";
+import AllAuthors from "../views/AllAuthors.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,11 @@ const router = createRouter({
       path: "/about",
       name: "about",
       component: AboutView,
+    },
+    {
+      path: "/allauthors",
+      name: "allAuthors",
+      component: AllAuthors,
     },
   ],
 });
