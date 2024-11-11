@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink } from "vue-router";
 
 const props = defineProps({
   authors: {
@@ -12,7 +13,9 @@ const props = defineProps({
 <template>
   <ol>
     <li v-for="author in authors">
+      <RouterLink :to="{ name: 'author', params: {username: author.user.username}}">
       {{ author.user.username }}
+    </RouterLink>
     </li>
   </ol>
 </template>
