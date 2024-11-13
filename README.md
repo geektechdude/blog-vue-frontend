@@ -1,4 +1,6 @@
 ![Docker Deployment](https://github.com/geektechdude/blog-vue-frontend/actions/workflows/dockerDeploy.yml/badge.svg)
+![Vitest](https://github.com/geektechdude/blog-vue-frontend/actions/workflows/vitest.yml/badge.svg)
+
 
 # blog-vue-frontend
 
@@ -25,4 +27,10 @@ npm run dev
 
 ```sh
 npm run build
+```
+
+### Testing
+
+```sh
+npm run test:unit
 ```
