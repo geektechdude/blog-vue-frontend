@@ -1,3 +1,7 @@
+<script setup>
+import AboutView from "../components/AboutView.vue";
+</script>
+
 <template>
-    <div>This is a test blog using Vue.JS for the frontend, Django for the backend and running queires via GraphQL</div>
+    <AboutView></AboutView>
 </template>
