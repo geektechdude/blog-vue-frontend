@@ -159,3 +159,4 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+.vscode
